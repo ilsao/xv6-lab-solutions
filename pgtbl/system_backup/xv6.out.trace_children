@@ -1,0 +1,77 @@
+
+xv6 kernel is booting
+
+hart 1 starting
+hart 2 starting
+init: starting sh
+$ trace 2 usertests forkforkfork
+usertests starting
+3: syscall fork -> 4
+test forkforkfork: 3: syscall fork -> 5
+5: syscall fork -> 6
+6: syscall fork -> 7
+7: syscall fork -> 8
+6: syscall fork -> 9
+7: syscall fork -> 10
+8: syscall fork -> 11
+6: syscall fork -> 12
+8: syscall fork -> 13
+7: syscall fork -> 14
+8: syscall fork -> 15
+7: syscall fork -> 16
+8: syscall fork -> 17
+7: syscall fork -> 18
+8: syscall fork -> 19
+6: syscall fork -> 20
+7: syscall fork -> 21
+8: syscall fork -> 22
+6: syscall fork -> 23
+7: syscall fork -> 24
+8: syscall fork -> 25
+6: syscall fork -> 26
+8: syscall fork -> 27
+6: syscall fork -> 28
+7: syscall fork -> 29
+8: syscall fork -> 30
+6: syscall fork -> 31
+7: syscall fork -> 32
+6: syscall fork -> 33
+9: syscall fork -> 34
+10: syscall fork -> 35
+6: syscall fork -> 36
+9: syscall fork -> 37
+6: syscall fork -> 38
+9: syscall fork -> 39
+6: syscall fork -> 40
+9: syscall fork -> 41
+6: syscall fork -> 42
+7: syscall fork -> 44
+6: syscall fork -> 45
+7: syscall fork -> 46
+9: syscall fork -> 43
+7: syscall fork -> 47
+6: syscall fork -> 48
+7: syscall fork -> 49
+8: syscall fork -> 50
+22: syscall fork -> 51
+8: syscall fork -> 52
+22: syscall fork -> 53
+7: syscall fork -> 54
+15: syscall fork -> 55
+22: syscall fork -> 56
+15: syscall fork -> 57
+22: syscall fork -> 58
+15: syscall fork -> 59
+22: syscall fork -> 60
+15: syscall fork -> 61
+7: syscall fork -> 62
+6: syscall fork -> 63
+15: syscall fork -> 64
+11: syscall fork -> 65
+15: syscall fork -> -1
+32: syscall fork -> -1
+6: syscall fork -> -1
+37: syscall fork -> -1
+OK
+3: syscall fork -> 66
+qemu-system-riscv64: terminating on signal 15 from pid 87186 (make)
